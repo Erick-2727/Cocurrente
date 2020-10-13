@@ -17,6 +17,7 @@ public class Cocinero implements Runnable {
     restaurant=resto;
     nombre=nomb;}
     public void run(){
-    this.restaurant.trabajarCocinero();
+        while(true){
+    this.restaurant.trabajarCocinero();}
     }
 }
