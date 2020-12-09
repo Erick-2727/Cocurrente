@@ -18,6 +18,8 @@ public class Cocinero implements Runnable {
     nombre=nomb;}
     public void run(){
         while(true){
-    this.restaurant.trabajarCocinero();}
+    this.restaurant.trabajarCocinero();
+            System.out.println("El cocinero "+ nombre+" se va a inventar recetas" );
+        }
     }
 }

@@ -13,8 +13,8 @@ public class PollosHermanos {
 public static void main(String[] args){
         
         Restaurant barberia = new Restaurant();
-        Mozo mozo = new Mozo(barberia,"Edgar");
-        Cocinero cocinero =new Cocinero(barberia,"manuel");
+        Mozo mozo = new Mozo(barberia,"Thor");
+        Cocinero cocinero =new Cocinero(barberia,"Dante");
         Empleado[] empleados = new Empleado[6];
         
         Thread hiloMozo = new Thread(mozo,"Mozo");
